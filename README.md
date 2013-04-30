@@ -16,8 +16,7 @@ form format
 ===========
 
   
-  <!-- optionally include "data-redirect-url" attribute to redirect user to new page on
-       successful form submission -->
+  <!-- optionally include "data-redirect-url" attribute to redirect user to new page on successful form submission -->
   <form id="login-form" action="/login" method="POST" data-redirect-url="/">
 
     <!-- include a div with class "form-errors" in the form to display entire-form errors
