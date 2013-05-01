@@ -27,15 +27,15 @@ server should return responses in this format:
 
 ```json
 {
-  result: true
+  "result": true
 }
 
 {
-  result: false,
-  errors: {
-    form: 'this error applies to the entire form',
-    email: 'invalid email',
-    password: ['multiple errors', 'can be passed as an array']
+  "result": false,
+  "errors": {
+    "form": "this error applies to the entire form",
+    "email": "invalid email",
+    "password": ["multiple errors", "can be passed as an array"]
   }
 }
 ```
